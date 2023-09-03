@@ -18,8 +18,9 @@ function Works() {
           <img src={portfolio} alt='' className='worksImg' />
           <img src={rps} alt='' className='worksImg' />
           <img src={reactPortfolio} alt='' className='worksImg' />
-          <img src='' alt={githubProfile} className='worksImg' />
+          <img src={githubProfile} alt='' className='worksImg' />
         </div>
+        <button className='workBtn'>See More</button>
     </section>
   )
 }

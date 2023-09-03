@@ -12,7 +12,6 @@ function NavBar() {
           <Link className='deskstopMenuListItem'>Home</Link>
           <Link className='deskstopMenuListItem'>About</Link>
           <Link className='deskstopMenuListItem'>Portfolio</Link>
-          <Link className='deskstopMenuListItem'>Clients</Link>
         </div>
         <button className='deskstopMenuBtn'>
           <img src={ContactIcon} alt='contactIcon' className='deskstopMenuImg' />Contact Me</button>
