@@ -41,6 +41,10 @@
     border-radius: 2rem;
 }
 
+.deskstopMenuBtn:hover {
+    background: yellow;
+}
+
 .deskstopMenuImg {
     object-fit: cover;
     height: 1rem;
