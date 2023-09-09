@@ -5,6 +5,9 @@ import { Link } from 'react-scroll';
 import ContactIcon from '../assets/contact.png';
 
 function NavBar() {
+  const handleClick = () => {
+    document.getElementById('contact').scrollIntoView({behaviour: 'smooth'});
+  }
   return (
     <nav className='navBar'>
         <img src={logo} alt='logo' className='logo' />
@@ -13,7 +16,7 @@ function NavBar() {
           <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='deskstopMenuListItem'>About</Link>
           <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className='deskstopMenuListItem'>Portfolio</Link>
         </div>
-        <button className='deskstopMenuBtn'>
+        <button className='deskstopMenuBtn' onClick={handleClick}>
           <img src={ContactIcon} alt='contactIcon' className='deskstopMenuImg' />Contact Me</button>
     </nav>
   )
