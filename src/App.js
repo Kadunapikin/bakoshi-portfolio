@@ -1,4 +1,5 @@
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Intro from "./components/Intro";
 import NavBar from "./components/NavBar";
 import Skills from "./components/Skills";
@@ -11,7 +12,7 @@ function App() {
       <Skills />
       <Works />
       <Contact />
-      <footer />
+      <Footer />
     </div>
   );
 }

@@ -9,9 +9,9 @@ function NavBar() {
     <nav className='navBar'>
         <img src={logo} alt='logo' className='logo' />
         <div className='deskstopMenu'>
-          <Link className='deskstopMenuListItem'>Home</Link>
-          <Link className='deskstopMenuListItem'>About</Link>
-          <Link className='deskstopMenuListItem'>Portfolio</Link>
+          <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='deskstopMenuListItem'>Home</Link>
+          <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='deskstopMenuListItem'>About</Link>
+          <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className='deskstopMenuListItem'>Portfolio</Link>
         </div>
         <button className='deskstopMenuBtn'>
           <img src={ContactIcon} alt='contactIcon' className='deskstopMenuImg' />Contact Me</button>

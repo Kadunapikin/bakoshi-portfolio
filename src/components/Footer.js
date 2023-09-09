@@ -3,7 +3,9 @@ import '../styles/Footer.css';
 
 const Footer = () => {
   return (
-    <footer className='footer'></footer>
+    <footer className='footer'>
+        &copy; 2023 kadunapikin.com
+    </footer>
   )
 }
 
