@@ -56,7 +56,11 @@
 }
 
 .links a {
-    height: 3rem;
+    object-fit: cover;
+    height: 2rem;
     width: 3rem;
     margin: 0 0.75rem;
+    cursor: pointer;
+    background: rgb(243, 237, 237);
+    
 }
