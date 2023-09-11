@@ -7,14 +7,17 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import emailjs from '@emailjs/browser';
 
+
 function Contact() {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_sewv1wn', 'template_pbg7qwd', form.current, '_7YauwYbf7WyJxckg6dgz')
+    emailjs.sendForm('service_sewv1wn', 'template_pbg7qwd', form.current, 'MQaxQbrbfZJ0Ht2fG')
       .then((result) => {
           console.log(result.text);
+          e.target.reset();
+          alert('Email Sent!');
       }, (error) => {
           console.log(error.text);
       });
@@ -27,10 +30,10 @@ function Contact() {
             <h1 className='contactPageTitle'>Contact Me</h1>
             <span className='contactDesc'>Kindly fill out the form bellow to discuss any job opportunity</span>
             <form className='contactForm' ref={form} onSubmit={sendEmail}>
-                <input type='text' className='name' placeholder='Your Name' name='your_name' />
-                <input type='email' className='email' placeholder='Your Email' name='your_email' />
+                <input type='text' className='name' placeholder='Your Name' name='from_name' />
+                <input type='email' className='email' placeholder='Your Email' name='from_email' />
                 <textarea className='msg' name='message'rows='5' placeholder='Your Message'></textarea>
-                <button type='submit' value='send' className='submitBtn'>Submit</button>
+                <button type='submit' value='Send' className='submitBtn'>Submit</button>
                 <div className='links'>
                   <a href='https://github.com/Kadunapikin'><GithubIcon /></a>
                   <a href='https://www.linkedin.com/in/kadunapikin/'><LinkedInIcon /></a>
