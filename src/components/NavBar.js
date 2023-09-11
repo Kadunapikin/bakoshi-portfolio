@@ -27,10 +27,10 @@ function NavBar() {
 
           <img src={MenuIcon} alt='menu' className='mobMenu' onClick={()=>setShowMenu(!showMenu)} />
         <div className='navMenu' style={{display: showMenu? 'flex':'none'}}>
-          <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='ListItem'>Home</Link>
-          <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='ListItem'>About</Link>
-          <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className='ListItem'>Portfolio</Link>
-          <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-50} duration={500} className='ListItem'>Contact</Link>
+          <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='ListItem' onClick={handleChange}>Home</Link>
+          <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='ListItem' onClick={handleChange}>About</Link>
+          <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className='ListItem' onClick={handleChange}>Portfolio</Link>
+          <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-50} duration={500} className='ListItem' onClick={handleChange}>Contact</Link>
         </div>
 
     </nav>

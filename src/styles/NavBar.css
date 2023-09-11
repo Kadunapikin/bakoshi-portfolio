@@ -99,4 +99,8 @@
     .deskstopMenuBtn {
         display: none;
     }
+
+    .ListItem {
+        cursor: pointer;
+    }    
 }

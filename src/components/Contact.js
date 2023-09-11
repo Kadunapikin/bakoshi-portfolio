@@ -37,8 +37,8 @@ function Contact() {
                 <textarea className='msg' name='message'rows='5' placeholder='Your Message'></textarea>
                 <button type='submit' value='Send' className='submitBtn'>Submit</button>
                 <div className='links'>
-                  <a href='https://github.com/Kadunapikin'><img src={linkdinIcon} alt='linkinIcon' className='link' /></a>
-                  <a href='https://www.linkedin.com/in/kadunapikin/'><img src={githubIcon} alt='githubIcon' className='link' /></a>
+                  <a href='https://github.com/Kadunapikin'><img src={githubIcon} alt='linkinIcon' className='link' /></a>
+                  <a href='https://www.linkedin.com/in/kadunapikin/'><img src={linkdinIcon} alt='githubIcon' className='link' /></a>
                   <a href='https://www.facebook.com/ibakoshi?mibextid=ZbWKwL'><img src={twitterIcon} alt='twitterIcon' className='link' /></a>
                   <a href='https://twitter.com/Kadunapikin?t=BkjbDzGQlfmxYgeaPyGAZA&s=09'><img src={igIcon} alt='igIcon' className='link' /></a>
                   <a href='https://instagram.com/kadunapikin?igshid=ZGUzMzM3NWJiOQ=='><img src={fbIcon} alt='FacebookIcon' className='link' /></a>

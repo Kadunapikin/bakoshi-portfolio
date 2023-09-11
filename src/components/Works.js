@@ -13,14 +13,14 @@ function Works() {
         <h2 className='worksTitle'>My Portfolio</h2>
         <span className='worksDesc'>I take pride in paying attention to the smallest detail and making sure that my work is pixel perfect. I am excited to bring my skills and experience to help businesses achieve their goals and create a strong online presence.</span>
         <div className='worksImgs'>
-          <img src={capstone} alt='' className='worksImg' />
-          <img src={etchASketch} alt='' className='worksImg' />
-          <img src={portfolio} alt='' className='worksImg' />
-          <img src={rps} alt='' className='worksImg' />
-          <img src={reactPortfolio} alt='' className='worksImg' />
-          <img src={githubProfile} alt='' className='worksImg' />
+          <a href='https://phildeoner.github.io/Capstone-Project/'><img src={capstone} alt='Capstone Project' className='worksImg' /></a>
+          <a href='https://kadunapikin.github.io/etch_a_sketch/'><img src={etchASketch} alt='Etch A Sketch Project' className='worksImg' /></a>
+          <a href='https://kadunapikin.github.io/portfolio/'><img src={portfolio} alt='My HTML, CSS and JavaScript portfolio' className='worksImg' /></a>
+          <a href='https://kadunapikin.github.io/RockPaperScissors/'><img src={rps} alt='Rock Paper and Scissors game' className='worksImg' /></a>
+          <a href='https://kadunapikin.github.io/my-react-portfolio/'><img src={reactPortfolio} alt='My react Portfolio' className='worksImg' /></a>
+          <a href='https://kadunapikin.github.io/Kadunapikin/'><img src={githubProfile} alt='Github Profile Page' className='worksImg' /></a>
         </div>
-        <button className='workBtn'>See More</button>
+        <a href='https://github.com/Kadunapikin'><button className='workBtn'>See More</button></a>
     </section>
   )
 }
