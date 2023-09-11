@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/NavBar.css';
-import logo from '../assets/logo.JPG';
+import logo from '../assets/Bakoshi-logo.jpg';
 import { Link } from 'react-scroll';
 import ContactIcon from '../assets/contact.png';
 import MenuIcon from '../assets/MenuIcon.JPG';

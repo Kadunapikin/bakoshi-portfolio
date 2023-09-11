@@ -1,11 +1,13 @@
 import React, { useRef } from 'react';
 import '../styles/Contact.css';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import GithubIcon from '@mui/icons-material/GitHub';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import InstagramIcon from '@mui/icons-material/Instagram';
 import emailjs from '@emailjs/browser';
+import fbIcon from '../assets/FacebookIcon.JPG';
+import igIcon from '../assets/GithubIcon.JPG';
+import twitterIcon from '../assets/InstagramIcon.JPG';
+import linkdinIcon from '../assets/LinkdinIcon.JPG';
+import githubIcon from '../assets/TwitterIcon.JPG';
+
+
 
 
 function Contact() {
@@ -35,11 +37,11 @@ function Contact() {
                 <textarea className='msg' name='message'rows='5' placeholder='Your Message'></textarea>
                 <button type='submit' value='Send' className='submitBtn'>Submit</button>
                 <div className='links'>
-                  <a href='https://github.com/Kadunapikin'><GithubIcon /></a>
-                  <a href='https://www.linkedin.com/in/kadunapikin/'><LinkedInIcon /></a>
-                  <a href='https://www.facebook.com/ibakoshi?mibextid=ZbWKwL'><FacebookIcon /></a>
-                  <a href='https://twitter.com/Kadunapikin?t=BkjbDzGQlfmxYgeaPyGAZA&s=09'><TwitterIcon /></a>
-                  <a href='https://instagram.com/kadunapikin?igshid=ZGUzMzM3NWJiOQ=='><InstagramIcon /></a>
+                  <a href='https://github.com/Kadunapikin'><img src={linkdinIcon} alt='linkinIcon' className='link' /></a>
+                  <a href='https://www.linkedin.com/in/kadunapikin/'><img src={githubIcon} alt='githubIcon' className='link' /></a>
+                  <a href='https://www.facebook.com/ibakoshi?mibextid=ZbWKwL'><img src={twitterIcon} alt='twitterIcon' className='link' /></a>
+                  <a href='https://twitter.com/Kadunapikin?t=BkjbDzGQlfmxYgeaPyGAZA&s=09'><img src={igIcon} alt='igIcon' className='link' /></a>
+                  <a href='https://instagram.com/kadunapikin?igshid=ZGUzMzM3NWJiOQ=='><img src={fbIcon} alt='FacebookIcon' className='link' /></a>
                 </div>
             </form>
         </div>

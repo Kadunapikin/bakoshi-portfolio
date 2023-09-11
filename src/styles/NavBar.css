@@ -17,6 +17,8 @@
     object-fit: cover;
     height: 3rem;
     width: 4rem;
+    border-radius: 50%;
+    padding: 0 0.3rem;
 }
 
 .deskstopMenuListItem {
