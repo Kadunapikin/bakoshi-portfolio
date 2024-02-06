@@ -11,6 +11,11 @@ function Skills() {
         <span className='skillTitle'>What I Do</span>
         <span className='skillDesc'>I am a skilled and passionate Web developer with experience in creating visually appealing and user friendly website. I am proficient in HTML, CSS, JavaScript and ReactJs.</span>
         <div className='skillBars'>
+            <div>
+                <div>
+                https://www.svgrepo.com/svg/452228/html-5
+                </div>
+            </div>
             <div className='skillBar'>
                 <img src={htmlIcon} alt='htmlIcon' />
                 <div className='skillBarText'>
