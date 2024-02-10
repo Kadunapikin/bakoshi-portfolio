@@ -58,10 +58,10 @@
 
 .link {
     object-fit: cover;
-    height: 2rem;
+    height: 3rem;
     width: 3rem;
     margin: 0 0.75rem;
     cursor: pointer;
     background: rgb(243, 237, 237);
-    border-radius: 50%;
+    border-radius: 10px;
 }
