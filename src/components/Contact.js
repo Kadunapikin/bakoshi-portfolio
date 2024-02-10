@@ -1,11 +1,11 @@
 import React, { useRef } from 'react';
 import '../styles/Contact.css';
 import emailjs from '@emailjs/browser';
-import fbIcon from '../assets/FacebookIcon.JPG';
-import igIcon from '../assets/GithubIcon.JPG';
-import twitterIcon from '../assets/InstagramIcon.JPG';
-import linkdinIcon from '../assets/LinkdinIcon.JPG';
-import githubIcon from '../assets/TwitterIcon.JPG';
+import fbIcon from '../assets/facebook-svgrepo-com.svg';
+import igIcon from '../assets/instagram-svgrepo-com.svg';
+import twitterIcon from '../assets/twitter-svgrepo-com.svg';
+import linkdinIcon from '../assets/linkedin-svgrepo-com.svg';
+import githubIcon from '../assets/github-svgrepo-com.svg';
 
 
 
