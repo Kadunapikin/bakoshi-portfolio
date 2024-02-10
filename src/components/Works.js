@@ -5,7 +5,7 @@ import etchASketch from '../assets/etchASketch.JPG';
 import portfolio from '../assets/portfolio.JPG';
 import rps from '../assets/rps.JPG';
 import reactPortfolio from '../assets/reactPortfolio.JPG';
-import githubProfile from '../assets/githubProfile.JPG';
+import responsiveNavBar from '../assets/responsiveNavBar.JPG';
 
 function Works() {
   return (
@@ -18,7 +18,7 @@ function Works() {
           <a href='https://kadunapikin.github.io/portfolio/'><img src={portfolio} alt='My HTML, CSS and JavaScript portfolio' className='worksImg' /></a>
           <a href='https://kadunapikin.github.io/RockPaperScissors/'><img src={rps} alt='Rock Paper and Scissors game' className='worksImg' /></a>
           <a href='https://kadunapikin.github.io/my-react-portfolio/'><img src={reactPortfolio} alt='My react Portfolio' className='worksImg' /></a>
-          <a href='https://kadunapikin.github.io/Kadunapikin/'><img src={githubProfile} alt='Github Profile Page' className='worksImg' /></a>
+          <a href='https://kadunapikin.github.io/Responsive-NavBar/'><img src={responsiveNavBar} alt='Responsive NavBar Page' className='worksImg' /></a>
         </div>
         <a href='https://github.com/Kadunapikin'><button className='workBtn'>See More</button></a>
     </section>
