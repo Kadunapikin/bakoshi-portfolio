@@ -1,9 +1,9 @@
 import React from 'react';
 import '../styles/Skills.css';
-import htmlIcon from '../assets/html.png';
-import cssIcon from '../assets/css.png';
-import javaScriptIcon from '../assets/javascript.JPG';
-import reactIcon from '../assets/React-logo.JPG';
+import htmlIcon from '../assets/html-5-svgrepo-com.svg';
+import cssIcon from '../assets/css-3-svgrepo-com.svg';
+import javaScriptIcon from '../assets/js-svgrepo-com.svg';
+import reactIcon from '../assets/react-svgrepo-com.svg';
 
 function Skills() {
   return (
@@ -11,11 +11,6 @@ function Skills() {
         <span className='skillTitle'>What I Do</span>
         <span className='skillDesc'>I am a skilled and passionate Web developer with experience in creating visually appealing and user friendly website. I am proficient in HTML, CSS, JavaScript and ReactJs.</span>
         <div className='skillBars'>
-            <div>
-                <div>
-                https://www.svgrepo.com/svg/452228/html-5
-                </div>
-            </div>
             <div className='skillBar'>
                 <img src={htmlIcon} alt='htmlIcon' />
                 <div className='skillBarText'>
