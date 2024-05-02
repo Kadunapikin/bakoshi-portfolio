@@ -1,4 +1,4 @@
-export const skills = [
+export const SKILLS = [
     {
         tittle: "Frondend",
         icon: "./assets/icons/frondend.png",

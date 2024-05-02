@@ -1,4 +1,37 @@
-#skills {
+.skills-container {
+    margin: 4rem;
+    position: relative;
+}
+
+.skills-container h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3.5rem;
+}
+
+.skills-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.skills {
+    flex: 1;
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.skills-info {
+    flex: 1;
+}
+
+
+
+
+
+
+/* #skills {
     overflow: hidden;
     width: 100vw;
     max-width: 65rem;
@@ -7,10 +40,10 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 0 auto;
-}
+    margin: 5rem;
+} */
 
-.skillTitle {
+/* .skillTitle {
     font-size: 3rem;
     font-weight: 600;
     padding-top: 3rem;
@@ -49,7 +82,7 @@
 .skillBarText>p {
     font-size: 0.9rem;
     font-weight: 200;
-}
+} */
 
 .hero-skills {
     display: flex;

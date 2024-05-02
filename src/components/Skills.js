@@ -5,14 +5,22 @@ import cssIcon from '../assets/css-3-svgrepo-com.svg';
 import javaScriptIcon from '../assets/js-svgrepo-com.svg';
 import reactIcon from '../assets/react-svgrepo-com.svg';
 import githubIcon from '../assets/github-svgrepo-com.svg';
+import { SKILLS } from '../utils/data';
+import SkillCard from './SkillCard';
 
 function Skills() {
   return (
-    <section id='skills'>
+    <section className='skills-container' id='skills-container'>
         <h5>Technical Proficiency</h5>
         <div className='skills-content'>
             <div className='skills'>
-
+                {SKILLS.map((item) => (
+                    <SkillCard 
+                    key={item.tittle}
+                    iconUrl={item.icon}
+                    tittle={item.tittle}
+                    />
+                ))}
             </div>
 
             <div className='skills-info'></div>
