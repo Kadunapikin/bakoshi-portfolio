@@ -23,7 +23,9 @@ function Intro() {
         <Link onClick={handleClick}><button className='btn'><img src={hireme} alt='Hire me' className='btnImg' />Hire Me</button></Link>
       </div>
       <div className='hero-img'>
-        <img src={bg} alt='Profile' className='bg' />
+        <div>
+          <img src={bg} alt='Profile' className='bg' />
+        </div>
         <div>
           <div className='tech-icon'>
             <img src={htmlIcon} alt='htmlIcon' /> 

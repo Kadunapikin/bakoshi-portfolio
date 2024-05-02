@@ -59,14 +59,14 @@
 }
 
 .tech-icon {
-    width: 5rem;
-    height: 5rem;
+    width: 10rem;
+    height: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     border-radius: 0.65rem;
-    border: 1.5rem solid rgb(50, 50, 50);
+    border: 0.5rem solid rgb(50, 50, 50);
     gap: 2rem;
 }
 

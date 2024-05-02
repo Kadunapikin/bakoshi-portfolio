@@ -13,7 +13,7 @@
     right: 0;
     z-index: -1;
     object-fit: cover;
-    height: 100vh;
+    height: 90vh;
     filter: blur(0.5px); 
     border-radius: 25px;
 }

@@ -9,8 +9,18 @@ import githubIcon from '../assets/github-svgrepo-com.svg';
 function Skills() {
   return (
     <section id='skills'>
-        <span className='skillTitle'>Skills</span>
-        <span className='skillDesc'>I am a skilled and passionate Web developer with experience in creating visually appealing and user friendly website. I am proficient in HTML, CSS, JavaScript and ReactJs.</span>
+        <h5>Technical Proficiency</h5>
+        <div className='skills-content'>
+            <div className='skills'>
+
+            </div>
+
+            <div className='skills-info'></div>
+        </div>
+
+
+        {/* <span className='skillTitle'>Skills</span>
+        <span className='skillDesc'>I am a skilled and passionate Web developer with experience in creating visually appealing and user friendly website. I am proficient in HTML, CSS, JavaScript and ReactJs.</span> */}
         <div className='skillBars'>
             {/* <div className='skillBar'>
                 <img src={htmlIcon} alt='htmlIcon' />
