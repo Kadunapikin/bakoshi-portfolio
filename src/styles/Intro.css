@@ -14,6 +14,8 @@
     z-index: -1;
     object-fit: cover;
     height: 100vh;
+    filter: blur(0.5px); 
+    border-radius: 10px;
 }
 
 .introContent {
