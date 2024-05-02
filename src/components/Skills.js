@@ -4,14 +4,15 @@ import htmlIcon from '../assets/html-5-svgrepo-com.svg';
 import cssIcon from '../assets/css-3-svgrepo-com.svg';
 import javaScriptIcon from '../assets/js-svgrepo-com.svg';
 import reactIcon from '../assets/react-svgrepo-com.svg';
+import githubIcon from '../assets/github-svgrepo-com.svg';
 
 function Skills() {
   return (
     <section id='skills'>
-        <span className='skillTitle'>What I Do</span>
+        <span className='skillTitle'>Skills</span>
         <span className='skillDesc'>I am a skilled and passionate Web developer with experience in creating visually appealing and user friendly website. I am proficient in HTML, CSS, JavaScript and ReactJs.</span>
         <div className='skillBars'>
-            <div className='skillBar'>
+            {/* <div className='skillBar'>
                 <img src={htmlIcon} alt='htmlIcon' />
                 <div className='skillBarText'>
                     <h2>HTML</h2>
@@ -38,7 +39,25 @@ function Skills() {
                     <h2>React Js</h2>
                     <p>React is a free and open-source front-end JavaScript library for building user interfaces based on components.</p>
                 </div>
+            </div> */}
+            <div className='hero-skills'>
+                <div className='tech-icon'>
+                    <img src={htmlIcon} alt='htmlIcon' /> 
+                </div>
+                <div className='tech-icon'>
+                    <img src={cssIcon} alt='cssIcon' /> 
+                </div>
+                <div className='tech-icon'>
+                    <img src={javaScriptIcon} alt='javaScriptIcon' /> 
+                </div>
+                <div className='tech-icon'>
+                    <img src={reactIcon} alt='reactIcon' /> 
+                </div>
+                <div className='tech-icon'>
+                    <img src={githubIcon} alt='reactIcon' /> 
+                </div>
             </div>
+
         </div>
     </section>
   )

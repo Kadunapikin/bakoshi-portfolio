@@ -51,6 +51,35 @@
     font-weight: 200;
 }
 
+.hero-skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.tech-icon {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.65rem;
+    border: 1.5rem solid rgb(50, 50, 50);
+    gap: 2rem;
+}
+
+.tech-icon img {
+    width: 3rem;
+    height: auto;
+    transition: all 0.3s ease;
+}
+
+.tech-icon img:hover {
+    transform: translateY(-0.5rem);
+}
+
 @media screen and (max-width: 890px){
     .skillBarText>p {
         font-size: 2vw;
