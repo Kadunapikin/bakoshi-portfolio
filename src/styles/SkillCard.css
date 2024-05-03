@@ -12,7 +12,8 @@ transition: all 0.3s ease;
 
 .skills-card:hover,
 .skills-card.active {
-    background: linear-gradient (180deg, #2d2c2e, 0%, #222126 100%);
+    background: #2a2252;
+    /* background: linear-gradient (180deg, #2d2c2e, 0%, #222126 100%); */
 }
 
 .skills-card span {

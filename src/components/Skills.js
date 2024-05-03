@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/Skills.css';
 import htmlIcon from '../assets/html-5-svgrepo-com.svg';
 import cssIcon from '../assets/css-3-svgrepo-com.svg';
@@ -7,8 +7,16 @@ import reactIcon from '../assets/react-svgrepo-com.svg';
 import githubIcon from '../assets/github-svgrepo-com.svg';
 import { SKILLS } from '../utils/data';
 import SkillCard from './SkillCard';
+import { SkillsInfoCard } from './SkillsInfoCard';
 
 function Skills() {
+    const [selectedSkill, setSelectedSkill] = useState(SKILLS[0]);
+
+    const handleSelectSkill = (data) => {
+        setSelectedSkill(data)
+    }
+
+
   return (
     <section className='skills-container' id='skills-container'>
         <h5>Technical Proficiency</h5>
@@ -19,11 +27,20 @@ function Skills() {
                     key={item.tittle}
                     iconUrl={item.icon}
                     tittle={item.tittle}
+                    isActive={selectedSkill.tittle === item.tittle}
+                    onClick={() => {
+                        handleSelectSkill(item);
+                    }}
                     />
                 ))}
             </div>
 
-            <div className='skills-info'></div>
+            <div className='skills-info'>
+                <SkillsInfoCard
+                heading={selectedSkill.tittle}
+                skills={selectedSkill.skills} 
+                />
+            </div>
         </div>
 
 

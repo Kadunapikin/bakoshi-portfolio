@@ -51,20 +51,18 @@
 }
 
 .links {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 2rem;
+    flex: 1;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(5, 1fr);
+    /* gap: 5px; */
 }
 
 .link {
-    object-fit: cover;
-    height: 3rem;
-    width: 3rem;
-    margin: 0 0.75rem;
-    cursor: pointer;
-    background: rgb(243, 237, 237);
-    border-radius: 10px;
+    width: 2rem;
+    height: auto;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .link:hover {
