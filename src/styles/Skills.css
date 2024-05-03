@@ -110,7 +110,7 @@
 }
 
 .tech-icon img:hover {
-    transform: translateY(-0.5rem);
+    transform: translateY(-1rem);
 }
 
 @media screen and (max-width: 890px){
