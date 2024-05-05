@@ -1,7 +1,12 @@
+import frontend from '../assets/skills/front-end.png';
+import backtend from '../assets/skills/back-end.png';
+import tools from '../assets/skills/tools.png';
+import softskills from '../assets/skills/soft-skills.png';
+
 export const SKILLS = [
     {
         tittle: "Frondend",
-        icon: "./assets/icons/frondend.png",
+        icon: frontend,
         skills: [
             { skill: "HTML5", percentage: "80%" },
             { skill: "CSS3 (Sass/SCSS)", percentage: "90%" },
@@ -11,7 +16,7 @@ export const SKILLS = [
     },
     {
         tittle: "Backend",
-        icon: "./assets/icons/backend.png",
+        icon: backtend,
         skills: [
             { skill: "Node.js", percentage: "60%" },
             { skill: "Express.js", percentage: "60%" },
@@ -19,7 +24,7 @@ export const SKILLS = [
     },
     {
         tittle: "Tools",
-        icon: "./assets/icons/tools.png",
+        icon: tools,
         skills: [
             { skill: "Git and Github", percentage: "85%" },
             { skill: "Visual Studio Code", percentage: "75%" },
@@ -29,7 +34,7 @@ export const SKILLS = [
     },
     {
         tittle: "Soft Skills",
-        icon: "./assets/icons/softskills.png",
+        icon: softskills,
         skills: [
             { skill: "Problem-Solving", percentage: "80%" },
             { skill: "Collaboration", percentage: "85%" },
