@@ -43,3 +43,13 @@ export const SKILLS = [
         ],
     },
 ]
+
+export const    WORK_EXPERIENCE = [
+    {
+        tittle: "",
+        date: "",
+        responsibilities: [
+            
+        ]
+    }
+]

@@ -1,6 +1,6 @@
 .skills-info-card {
     min-height: 23rem;
-    width: 35vw;
+    width: 100%;
     border-radius: 0.65rem;
     border: 1.5px solid rgb(50, 50, 50);
     background: rgb(30, 30, 30);
@@ -65,4 +65,18 @@
         font-weight: 500;
         padding: 0.5rem 1rem;
     }    
+}
+
+@media (max-width: 1025px) {
+    .skills-info-card h6 {
+        font-size: 1.1rem;
+    }
+
+    .skills-info p {
+        font-size: 0.9rem;
+    }
+
+    .skills-info-content {
+        padding: 1.5rem;
+    }
 }
