@@ -46,10 +46,30 @@ export const SKILLS = [
 
 export const    WORK_EXPERIENCE = [
     {
-        tittle: "",
-        date: "",
+        tittle: "Software Developer Intern, Careerli, Remote",
+        date: "September, 2023 - Present",
         responsibilities: [
-            
-        ]
-    }
+            "Authored documentation for the application.",
+            "Created additional resume templates with customizable background colors.",
+            "Made front-end modifications and bug fixes to improve user experience.",
+            "Utilizing NestJs for backend and ReactJs with TypeScript for frontend development.",
+            "Working with a team to develop and maintain the application.",
+        ],
+    },
+    {
+        tittle: "Volunteer Mentor, TOP Software Developers Nigeria, Remote",
+        date: "April 2022 - Present",
+        responsibilities: [
+            "Providing mentorship in front-end and back-end technologies.",
+            "Conducting comprehensive code reviews.",
+        ],
+    },
+    {
+        tittle: "Agric Team Lead, Letshego MFB, Abuja",
+        date: "July 2019 - April 2022t",
+        responsibilities: [
+            "Led multi-state agricultural projects impacting over 2000 farmers.",
+            "Developed and maintained relationships with a diverse clientele, consistently meeting and exceeding targets for lending and portfolio quality.",
+        ],
+    },
 ]
