@@ -75,7 +75,7 @@ function Skills() {
                     <p>React is a free and open-source front-end JavaScript library for building user interfaces based on components.</p>
                 </div>
             </div> */}
-            <div className='hero-skills'>
+            {/* <div className='hero-skills'>
                 <div className='tech-icon'>
                     <img src={htmlIcon} alt='htmlIcon' /> 
                 </div>
@@ -91,7 +91,7 @@ function Skills() {
                 <div className='tech-icon'>
                     <img src={githubIcon} alt='reactIcon' /> 
                 </div>
-            </div>
+            </div> */}
 
         </div>
     </section>
