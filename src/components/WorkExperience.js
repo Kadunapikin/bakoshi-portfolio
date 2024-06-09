@@ -3,6 +3,8 @@ import '../styles/WorkExperience.css';
 import { WORK_EXPERIENCE } from '../utils/data';
 import ExperienceCard from './ExperienceCard';
 import Slider from 'react-slick';
+import chevronLeft from '../assets/chevron_left.svg';
+import chevronRight from '../assets/chevron_right.svg';
 
 
 const WorkExperience = () => {
@@ -27,10 +29,24 @@ const WorkExperience = () => {
     ],
   };
 
+  const slightRight = () => {
+    sliderRef.current.slickNext();
+  }
+
+  const slightLeft = () => {
+    sliderRef.current.slickPrev();
+  }
+
   return (
     <section className='experience-container'>
         <h5>Work Eperience</h5>
         <div className='experience-content'>
+          <div className='arrow-right' onClick={slightRight}>
+            <img src={chevronRight} alt='chevron-right' />
+          </div>
+          <div className='arrow-left' onClick={slightLeft}>
+            <img src={chevronLeft} alt='chevron-left' />
+          </div>
           <Slider ref={sliderRef} {...settings}>
             {
                 WORK_EXPERIENCE.map((item) => (

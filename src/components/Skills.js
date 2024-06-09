@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import '../styles/Skills.css';
-import htmlIcon from '../assets/html-5-svgrepo-com.svg';
-import cssIcon from '../assets/css-3-svgrepo-com.svg';
-import javaScriptIcon from '../assets/js-svgrepo-com.svg';
-import reactIcon from '../assets/react-svgrepo-com.svg';
-import githubIcon from '../assets/github-svgrepo-com.svg';
+// import chevronLeft from '../assets/chevron_left.svg';
+// import chevronRight from '../assets/chevron_right.svg';
+// import javaScriptIcon from '../assets/js-svgrepo-com.svg';
+// import reactIcon from '../assets/react-svgrepo-com.svg';
+// import githubIcon from '../assets/github-svgrepo-com.svg';
 import { SKILLS } from '../utils/data';
 import SkillCard from './SkillCard';
 import { SkillsInfoCard } from './SkillsInfoCard';
