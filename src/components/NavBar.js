@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../styles/NavBar.css';
 import logo from '../assets/Bakoshi-logo.jpg';
 import { Link } from 'react-scroll';
-import ContactIcon from '../assets/contact.png';
+import ContactIcon from '../assets/chat.png';
 import MenuIcon from '../assets/menu_icon.png';
 
 function NavBar() {
