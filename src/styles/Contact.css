@@ -8,6 +8,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* margin-top: -8rem; */
 }
 
 .contactDesc {
@@ -67,4 +68,15 @@
 
 .link:hover {
     transform: translateY(-1rem);
+}
+
+.tech-icon {
+    background: #130f2a;
+}
+
+@media screen and (max-width: 720px) {
+    #contact {
+        margin-top: -8rem;
+        margin-bottom: -4rem;
+    }
 }
