@@ -34,9 +34,9 @@
     margin: 0.5rem;
     padding: 0.5rem 1rem;
     color: white;
-    border: none;
-    border-radius: 0.5rem;
-    background: rgb(40, 40, 40);
+    border: 1.5px solid #6751b9;
+    border-radius: 0.6rem;
+    background: #130f2a
 }
 
 .submitBtn {
