@@ -68,11 +68,6 @@
 }
 
 @media (max-width: 768px) {
-    /* .skills {
-        grid-gap: 1rem;
-        grid-template-columns: repeat(1, 1fr);
-    }     */
-
     .skills-content {
         flex-direction: column-reverse;
         gap: 3rem;
