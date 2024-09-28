@@ -80,4 +80,7 @@
         height: 20vh;
         width: 40vw;
     }
+    .workBtn {
+        margin: 1rem 0;
+    }    
 }
