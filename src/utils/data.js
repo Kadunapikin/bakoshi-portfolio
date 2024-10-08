@@ -5,7 +5,7 @@ import softskills from '../assets/skills/soft-skills.png';
 
 export const SKILLS = [
     {
-        tittle: "Frondend",
+        tittle: "Frontend",
         icon: frontend,
         skills: [
             { skill: "HTML5", percentage: "80%" },
