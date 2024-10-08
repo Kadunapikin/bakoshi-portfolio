@@ -19,7 +19,7 @@ function Intro() {
       <div className='introContent'>
         {/* <span className='hello'>Hello,</span> */}
         <span className='introText'>Building <span className='introName'>Digital Experience</span> <br />That Inspire</span>
-        <p className='introPara'>Passionate FrondEnd Developer | Transforming Ideas into<br/> Seamless and Visually Stunning Web Solutions.</p>
+        <p className='introPara'>Passionate FrontEnd Developer | Transforming Ideas into<br/> Seamless and Visually Stunning Web Solutions.</p>
         <Link onClick={handleClick}><button className='btn'><img src={hireme} alt='Hire me' className='btnImg' />Hire Me</button></Link>
       </div>
       <div className='hero-img'>
